@@ -1,0 +1,86 @@
+body {
+    background-color: #05600a;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button {
+    margin: 5px 0;
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.header {
+    padding: 5px;
+}
+
+.rules {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin: 8px auto;
+    padding: 0.5rem;
+}
+
+.game {
+    display: flex;
+}
+
+.game,
+.rules {
+    justify-content: center;
+    align-items: center;
+}
+
+.game .player-hand {
+    margin-right: 70px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    margin-right: 8px;
+    background-color: #ebf4ed;
+    border-radius: 5%;
+}
+
+.card-value,
+.card-suit {
+    display: flex;
+    justify-content: center;
+    padding: 26% 0;
+    padding: 12px 0;
+    font-size: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+#game-info,
+#player-bank {
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>BLACKJACK</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>
+            <span class="black">&#9824</span>
+            <span class="red">&#9829</span>
+            Blackjack
+            <span class="red">&#9830</span>
+            <span class="black">&#9827</span>
+        </h1>
+    </div>
+
+    <p id="score" class="stat-tracker"> Gagné : 0 | Nul : 0 | Perdu : 0</p>
+
+    <div>
+        <p id="player-bank">Banque du joueur : 500</p>
+    </div>
+
+    <div class="rules">
+        <p id="game-info">Cliquez sur le bouton nouvelle partie pour commencer !</p>
+    </div>
+
+    <div id="player-bet" class="hidden">
+        <label for="player-bet">Montant du pari (50-500) : </label>
+        <input type="number" name="bet" id="bet" min="50" max="500">
+        <button id="confirm-bet-button">Confirmer le pari</button>
+    </div>
+
+    <div class="btns">
+        <button id="new-game" class="btn-new-game">Nouvelle partie</button>
+        <button id="btn-card" class="btn-card hidden">Trier une autre carte</button>
+        <button id="btn-pass" class="btn-pass hidden">Passer</button>
+    </div>
+
+    <div id="start" class="game hidden">
+        <div class="player-hand">
+            <h3>Joueur</h3>
+            <p id="player-card">Pas de carte pour l'instant</p>
+            <p id="player-value"></p>
+        </div>
+        <div class="dealer-hand">
+            <h3>Dealer</h3>
+            <p id="dealer-card">Pas de carte pour l'instant</p>
+            <p id="dealer-value"></p>
+        </div>
+        <div>
+            <p id="remain"></p>
+        </div>
+    </div>
+</body>
+
+</html>
