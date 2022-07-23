@@ -1,5 +1,4 @@
-# blackjack
-Blackjack
+# Blackjack
 
 **Home Page**
 
