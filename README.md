@@ -1,7 +1,7 @@
 # Blackjack
 
 ### Demo 
- <a href="[http://fakeflix.delmerie.fr/home](https://jdelmerie.github.io/blackjack/)" target="_blank">Click to get a demo</a>
+ <a href="https://jdelmerie.github.io/blackjack/" target="_blank">Click here for demo</a>
 
 **Home Page**
 
